@@ -52,7 +52,7 @@ int DigitOther(int digitother)
     return sumCount;
 }
 
-Console.WriteLine("Введите целое число "); // ввели 12345
+Console.WriteLine("Введите целое число "); 
 int number = Convert.ToInt32(Console.ReadLine());
 
 int sumCountOne = DigitOne(number);
